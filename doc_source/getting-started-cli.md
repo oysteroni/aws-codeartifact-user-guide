@@ -149,7 +149,7 @@
  There may be a delay between when you install the package and when it is ingested into your repository\. 
 
    ```
-   aws codeartifact list-packages --domain my-domain --repostiory my-repo
+   aws codeartifact list-packages --domain my-domain --repository my-repo
    ```
 
     JSON\-formatted data appears in the output with the format and name of the package that you installed\. 
